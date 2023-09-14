@@ -3,7 +3,9 @@ name: Deploy to EC2
 on:
   push:
     branches:
-      - develop #이 브랜치에 업로드된 것들이 서버에서 돌아감!
+      - main # 수정하기
+
+
 
 jobs:
 
